@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Áo thun len tay dài KM04",
+      "price": "130,000",
+      "price_old": "200,000",
+      "sale": "-11%",
+      "image1": "./image/product/product1.webp",
+      "image2": "./image/product/product11.webp",
+      "image_detail1": "./image/product/product1.webp",
+      "image_detail12": "./image/product/product11.webp",
+      "category": "Tra nong"
+    },
+    {
+      "id": 2,
+      "title": "Áo thun nam đen KM01",
+      "price": "150,000",
+      "image1": "./image/product/product2.webp",
+      "image2": "./image/product/product22.webp",
+      "image_detail1": "./image/product/product2.webp",
+      "image_detail12": "./image/product/product22.webp",
+      "category": "Tra nong"
+    },
+    {
+      "id": 3,
+      "title": "Áo thun nam KM08",
+      "price": "90,000",
+      "image1": "./image/product/product3.webp",
+      "image2": "./image/product/product33.webp",
+      "image_detail1": "./image/product/product3.webp",
+      "image_detail12": "./image/product/product33.webp",
+      "category": "Nuoc trai cay"
+    },
+    {
+      "id": 4,
+      "title": "Áo thun nam nâu KM06",
+      "price": "200,000",
+      "price_old": "300,000",
+      "sale": "-21%",
+      "image1": "./image/product/product4.webp",
+      "image2": "./image/product/product44.webp",
+      "image_detail1": "./image/product/product4.webp",
+      "image_detail12": "./image/product/product44.webp",
+      "category": "Nuoc trai cay"
+    },
+    {
+      "id": 5,
+      "title": "Áo thun nam trắng dài tay KM03",
+      "price": "260,000",
+      "image1": "./image/product/product5.webp",
+      "image2": "./image/product/product55.webp",
+      "image_detail1": "./image/product/product5.webp",
+      "image_detail12": "./image/product/product55.webp",
+      "category": "Nuoc trai cay"
+    },
+    {
+      "id": 6,
+      "title": "Áo thun nam vàng KM07",
+      "price": "400,000",
+      "image1": "./image/product/product6.webp",
+      "image2": "./image/product/product66.webp",
+      "image_detail1": "./image/product/product6.webp",
+      "image_detail12": "./image/product/product66.webp",
+      "category": "Nuoc trai cay"
+    },
+    {
+      "id": 7,
+      "title": "Áo thun nam xám KM05",
+      "price": "260,000",
+      "image1": "./image/product/product7.webp",
+      "image2": "./image/product/product77.webp",
+      "image_detail1": "./image/product/product7.webp",
+      "image_detail12": "./image/product/product77.webp",
+      "category": "Nuoc trai cay"
+    },
+    {
+      "id": 8,
+      "title": "Áo thun nam xanh KM02",
+      "price": "450,000",
+      "image1": "./image/product/product8.webp",
+      "image2": "./image/product/product88.webp",
+      "image_detail1": "./image/product/product8.webp",
+      "image_detail12": "./image/product/product88.webp",
+      "category": "Nuoc trai cay"
+    }
+  ]
+}

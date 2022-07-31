@@ -1,0 +1,119 @@
+.introduce {
+  .breadcrumb {
+    width: 100%;
+    background-color: #f1f1f1;
+    margin: 0 0 40px;
+    ol {
+      padding: 10px 0;
+      background: transparent;
+      border-radius: 0;
+      margin: 0;
+
+      & > li + li:before {
+        padding: 0 5px;
+        color: #ccc;
+        content: "/\00a0";
+      }
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  .introduce-page {
+    .tab-content {
+      padding-bottom: 30px;
+      .tab-pane {
+        display: none;
+        &.active {
+          display: block;
+        }
+        .search-field {
+          width: 500px;
+          background-color: #666666;
+          height: 45px;
+
+          .search_box {
+            width: 100%;
+            flex: 1;
+            height: 45px;
+            padding: 0 20px;
+            background: #ededed;
+            border: 0;
+            box-shadow: none;
+            outline: none;
+          }
+          input[type="submit"] {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            background-color: #252a2b;
+            color: #fff;
+          }
+        }
+        ul {
+          list-style-type: initial;
+          padding-left: 40px;
+          li {
+            font-size: 14px;
+            margin: 0 0 10px 0;
+          }
+        }
+        h1 {
+          font-size: 30px;
+          font-weight: 700;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 21px;
+          margin: 0 0 10px 0;
+          strong {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .group-menu {
+      margin: 0 0 30px;
+      position: relative;
+      padding: 20px;
+      border: 1px solid #e3e5ec;
+      .title {
+        width: 100%;
+        h2 {
+          font-size: 18px;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          padding-bottom: 10px;
+          font-weight: 500;
+          border-bottom: 2px solid #000;
+          text-align: center;
+        }
+      }
+      li {
+        line-height: 28px;
+        a {
+          color: #666666;
+          padding: 5px 0;
+          font-weight: 500;
+          font-size: 15px;
+          &.active {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .group-img {
+      margin-bottom: 30px;
+      a {
+        display: block;
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
